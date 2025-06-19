@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:background="#a3d1ff"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Song Title" />
+
+    <EditText
+        android:id="@+id/edtArtist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name of Artist" />
+
+    <EditText
+        android:id="@+id/edtRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rating(1-5)" />
+
+    <EditText
+        android:id="@+id/edtComment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comments (Rap,G.O.A.T, Nostalgcic,etc.)" />
+
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_marginTop="20dp"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:text="Back to Home"
+        android:background="#fbd3e3" />
+    <Button
+        android:id="@+id/btnMoreSongs"
+        android:layout_marginTop="20dp"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:text="More Songs "
+        android:background="#fbd3e3"/>
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_marginTop="20dp"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:text="Exit App"
+        android:background="#fbd3e3"/>
+
+</LinearLayout>

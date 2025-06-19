@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent">
+
+
+
+
+
+    <Button
+        android:id="@+id/addPlayListButton"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="20dp"
+        android:text="Add to Playlist"
+        android:layout_margin="10dp"
+        android:background="#fbd3e3"/>
+
+    <Button
+        android:id="@+id/showMoreSongsButton"
+        android:layout_marginTop="20dp"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:text="More Songs "
+        android:background="#fbd3e3"/>
+
+    <Button
+        android:id="@+id/exitAppButton"
+        android:layout_marginTop="20dp"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:text="Exit"
+        android:background="#fbd3e3"/>
+
+
+
+
+
+
+
+
+</LinearLayout>
